@@ -1,6 +1,7 @@
 module.exports = {
     purge:    [
         './resources/**/*.blade.php',
+        './resources/**/*.css',
     ],
     darkMode: false, // or 'media' or 'class'
     theme:    {
@@ -9,6 +10,7 @@ module.exports = {
                 primary: {
                     500: '#0262F5',
                     600: '#035AE0',
+                    700: '#004AB7',
                 },
             },
         },
