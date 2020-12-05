@@ -19,3 +19,10 @@ Route::post('foo', FooController::class)->name('foo');
 
 ## Declarative JS
 Route::view('/notification', 'notification');
+
+## Purgeable
+Route::get('/purgable', function () {
+    return view('purgeable', [
+        'color' => 'red',
+    ]);
+});
